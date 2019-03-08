@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+void main()
+{
+int a,b,c,d;
+printf("enter 2 fractional numbers");
+scanf("%d/%d%d/%d",&a,&b,&c,&d);
+num(a,b,c,d)
+den(a,b,c,d)
+printf("%d/%d",e,f);}
+
+int num(int a, int b, int c, int d)
+{
+int e,f;
+e=a*d+b*c;
+return e;
+}
+int den(int a, int b, int c, int d)
+{
+int e,f;
+f=b*d;
+return f;
+}
